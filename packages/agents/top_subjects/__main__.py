@@ -39,21 +39,20 @@ def main(args):
     ]}
     insight_as_json = json.dumps(insight)
 
-    TEST_ENV = os.getenv('TEST')
     AWS_SERVER_PUBLIC_KEY = os.getenv('AWS_SERVER_PUBLIC_KEY')
     AWS_SERVER_SECRET_KEY = os.getenv('AWS_SERVER_SECRET_KEY')
 
     # Start S3 session
-    # session = boto3.Session(
-    #     aws_access_key_id=AWS_SERVER_PUBLIC_KEY,:wqI
-    #     aws_secret_access_key=AWS_SERVER_SECRET_KEY,
-    # )
+    session = boto3.Session(
+        aws_access_key_id=AWS_SERVER_PUBLIC_KEY,
+        aws_secret_access_key=AWS_SERVER_SECRET_KEY,
+    )
 
     # Upload to S3
-    # s3 = session.resource('s3')
-    # s3.Bucket(BUCKET_NAME).put_object(Key='companies/amazon/most_frequent_subjects.json', Body=insight_as_json)
+    s3 = session.resource('s3')
+    s3.Bucket(BUCKET_NAME).put_object(Key='companies/amazon/most_frequent_subjects.json', Body=insight_as_json)
 
-    return {"body": "Success! " + TEST_ENV + " AWS PK: " + str(AWS_SERVER_PUBLIC_KEY) + ", AWS SK: " + str(AWS_SERVER_SECRET_KEY)}
+    return {"body": "Success! "}
 
 
 
