@@ -2,7 +2,7 @@
 
 set -e
 
-virtualenv virtualenv
+virtualenv virtualenv:wq
 source virtualenv/bin/activate
 pip install -r requirements.txt
 deactivate
