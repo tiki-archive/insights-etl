@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="991b46e9-3ebf-463b-aae7-c402da611f86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/agents/top_subjects/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/agents/top_subjects/build.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/agents/top_subjects/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/agents/top_subjects/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kgraph_populator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/api_response.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/companies.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/most_frequent_subjects.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/pages/insight/_insight.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../website/pages/insight/_insight.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BAsfGJbB32pZ7TPgzGtKv16Lal" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
