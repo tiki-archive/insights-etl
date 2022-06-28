@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="991b46e9-3ebf-463b-aae7-c402da611f86" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/agents/top_subjects/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/agents/top_subjects/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/agents/top_subjects/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/agents/top_subjects/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +44,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/agents/top_subjects" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nickk\OneDrive\Desktop\TIKI Insights\insight agents\packages\agents\top_subjects" />
       <recent name="C:\Users\nickk\OneDrive\Desktop\TIKI Insights\insights\insight agents" />
       <recent name="C:\Users\nickk\OneDrive\Desktop\TIKI Insights\insights\insight agents\packages\agents\top_subjects" />
     </key>
