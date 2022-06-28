@@ -39,8 +39,8 @@ def main(args):
     ]}
     insight_as_json = json.dumps(insight)
 
-    AWS_SERVER_PUBLIC_KEY = os.getenv('AWS_SERVER_PUBLIC_KEY')
-    AWS_SERVER_SECRET_KEY = os.getenv('AWS_SERVER_SECRET_KEY')
+    AWS_SERVER_PUBLIC_KEY = args.get('AWS_SERVER_PUBLIC_KEY')
+    AWS_SERVER_SECRET_KEY = args.get('AWS_SERVER_SECRET_KEY')
 
     # Start S3 session
     # session = boto3.Session(
@@ -52,7 +52,7 @@ def main(args):
     # s3 = session.resource('s3')
     # s3.Bucket(BUCKET_NAME).put_object(Key='companies/amazon/most_frequent_subjects.json', Body=insight_as_json)
 
-    return {"body": "Success! AWS PK: " + AWS_SERVER_PUBLIC_KEY + ", AWS SK: " + AWS_SERVER_SECRET_KEY}
+    return {"body": "Success! AWS PK: " + str(AWS_SERVER_PUBLIC_KEY) + ", AWS SK: " + str(AWS_SERVER_SECRET_KEY)}
 
 
 
