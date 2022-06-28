@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "hello world 2"
+
 set -e
 
 virtualenv virtualenv

@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="991b46e9-3ebf-463b-aae7-c402da611f86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/agents/top_subjects/build.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../website/pages/insight/_insight.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../website/pages/insight/_insight.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/agents/top_subjects/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/agents/top_subjects/build.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
