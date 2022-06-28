@@ -8,6 +8,7 @@ packages:
       # scoped or overlapping values.
       AWS_SERVER_PUBLIC_KEY: "${AWS_SERVER_PUBLIC_KEY}"
       AWS_SERVER_SECRET_KEY: "${AWS_SERVER_SECRET_KEY}"
+      TEST: "${TEST}"
     actions:
       - name: top_subjects
         runtime: 'python:default'
