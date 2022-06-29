@@ -8,3 +8,9 @@ To run/deploy, auth with digital ocean then
 ```doctl serverless deploy "insight agents" --remote-build```
 
 ```doctl serverless functions invoke agents/top_subjects```
+
+Make sure to have a .env file in root directory with
+```
+AWS_SERVER_PUBLIC_KEY="something2"
+AWS_SERVER_SECRET_KEY="something"
+```
