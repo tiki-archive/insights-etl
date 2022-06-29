@@ -18,5 +18,5 @@ AWS_SERVER_PUBLIC_KEY="something2"
 AWS_SERVER_SECRET_KEY="something"
 ```
 
-## Dailing Running 
+## Daily Running 
 (For some future TIKI employee who drew the short stick and is looking at this) Right now the function is run daily through a crontab on a dig ocean cloud droplet. The ssh key for it is in tiki password manager, though you can just open the console through dig ocean cloud panel. The cron tab calls a script which runs the cloud function once per day. 
