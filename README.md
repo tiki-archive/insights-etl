@@ -16,6 +16,7 @@ Make sure to have a .env file in repo root directory with
 ```
 AWS_SERVER_PUBLIC_KEY="something2"
 AWS_SERVER_SECRET_KEY="something"
+KGRAPH_API_KEY="also something"
 ```
 
 ## Daily Running 
